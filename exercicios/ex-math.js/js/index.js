@@ -29,3 +29,4 @@ texto.innerHTML += `<p>Com duas casas decimais ${Number(numero.toFixed(2))}</p>`
 
 
 
+
