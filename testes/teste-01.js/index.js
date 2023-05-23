@@ -8,3 +8,14 @@ document.body.innerHTML += `<p>As 3 últimas letras do seu nome são: <strong>${
 document.body.innerHTML += `<p>As palavras do seu nome são: <strong>${nome.split(' ')}</strong></p>`;
 document.body.innerHTML += `<p>Seu nome com letras maiúsculas:<strong> ${nome.toUpperCase()}</strong></p>`;
 document.body.innerHTML += `<p> Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong></p>`;
+
+/*
+document.body.innerHTML = `<p>Seu nome é <strong>${nome}</strong></p>`;
+document.body.innerHTML += `<p>Seu nome tem quantas letras?<strong>${nome.length}</strong></p>`;
+document.body.innerHTML += `<p>Qual o primeiro índice da letra <strong>a</strong> em seu nome: <strong>${nome.indexOf('a')}</strong></p>`;
+document.body.innerHTML += `<p>Qual o último índice da letra <strong>o</strong>em seu nome: <strong>${nome.lastIndexOf('o')}</strong></p>`;
+document.body.innerHTML += `<p>As 3 últimas letras do seu nome são: <strong>${nome.slice(-3)}</strong></p>`;
+document.body.innerHTML += `<p>As palavras do seu nome são:<strong> ${nome.split(' ')}</strong></p>`;
+document.body.innerHTML += `<p>Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong></p>`;
+document.body.innerHTML += `<p>Seu nome com letras minúsculas <strong>${nome.toLowerCase()}</strong></p>`;
+*/
