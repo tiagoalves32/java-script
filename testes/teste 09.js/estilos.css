@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+ /*Mobile First*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+  :root {
+    --primary-color: rgba(20, 176, 238, 0.582);
+    --secondary-color: white; 
+  }
+
+  * {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100vh;
+  }
+
+
+  body {
+    background-color: var(--primary-color);
+    
+  }
+
+  .container {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+  }
+
+  h1 {
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  #form > input {
+    font-size: 1.0em;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+    
+  } 
+
+  label {
+    padding-left: 5px;
+    font-size: 1.0em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+  }
+
+  button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0em;
+    font-weight: 700;
+  }
+
+  .paragrafo-resultado {
+    background-color: rgba(125, 211, 68, 0.603);
+  }
+  .bad {
+    background-color: rgba(221, 86, 86, 0.445);
+  }

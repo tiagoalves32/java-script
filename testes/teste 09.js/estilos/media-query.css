@@ -1,0 +1,91 @@
+ @charset "UTF-8";
+
+ @media screen and (min-width: 768px) and (max-width: 998px) {
+
+    
+    body {
+        background-color: rgba(137, 86, 185, 0.541);
+
+    }
+
+    label {
+        color: white;
+        
+    }
+
+    #form > input {
+        width: 100%;
+        display: block;
+        background-color:  rgba(137, 86, 185, 0.541);
+    }
+
+    button {
+        background-color: rgba(137, 86, 185, 0.541);
+    }
+
+    .paragrafo-resultado {
+        background-color: rgba(125, 211, 68, 0.603);
+      }
+      .bad {
+        background-color: rgba(221, 86, 86, 0.445);
+      }
+
+
+ }
+
+ @media screen and (min-width: 998px) and (max-width: 1200px) {
+    body {
+        background-color: rgba(128, 255, 0, 0.418);
+    }
+        label {
+            color: white;
+            
+        }
+    
+        #form > input {
+            width: 100%;
+            display:block;
+            background-color: rgba(128, 255, 0, 0.418)
+        }
+    
+        button {
+            background-color: rgba(128, 255, 0, 0.418); 
+        }
+
+        .paragrafo-resultado {
+            background-color: rgba(125, 211, 68, 0.603);
+          }
+          .bad {
+            background-color: rgba(221, 86, 86, 0.445);
+          }
+    
+ }
+
+ @media screen and (min-width: 1200px) {
+    body {
+    background-color: grey;
+}
+label {
+    color: white;
+    
+}
+
+#form > input {
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+button {
+    background-color: grey; 
+    border: 2px solid rgba(255, 255, 255, 0.39);
+}
+
+.paragrafo-resultado {
+    background-color: rgba(125, 211, 68, 0.603);
+  }
+  .bad {
+    background-color: rgba(221, 86, 86, 0.445);
+  }
+
+ }
