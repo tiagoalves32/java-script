@@ -1,0 +1,83 @@
+ @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    body {
+    background-color: red; 
+}
+
+label {
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: red;
+}
+
+.paragrafo-resultado {
+    background-color: rgb(232, 233, 231);
+    color: red;
+    text-align: center;
+}
+
+.bad {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+}
+
+@media screen and (min-width: 998px) and (max-width: 1200px) {
+    body {
+        background-color: rgba(50, 90, 77, 0.699);
+    }
+    label {
+        color: white;
+    }
+
+    button {
+        background-color: rgba(50, 90, 77, 0.699);
+    }
+
+    .paragrafo-resultado {
+        background-color: rgba(50, 90, 77, 0.699);
+        color: white;
+        text-align: center;
+    }
+
+    .bad {
+        background-color:rgba(50, 90, 77, 0.699);
+        color: white;
+        text-align: center;
+        
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+body {
+    background-color: rgba(247, 247, 88, 0.74);
+}
+
+h1 {
+    color: black;
+}
+
+button {
+    background-color: rgba(247, 247, 88, 0.74);
+    color: black;
+}
+
+.paragrafo-resultado {
+    background-color: rgba(247, 247, 88, 0.74);
+    text-align: center;
+}
+
+.bad {
+    background-color: rgba(247, 247, 88, 0.74);
+    color: black;
+    text-align: center; 
+}
+
+
+}

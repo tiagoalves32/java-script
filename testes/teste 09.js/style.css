@@ -45,10 +45,10 @@
     font-weight: 700;
   }
 
-  #form > input {
+  #formulario > input {
     font-size: 1.0em;
-    width: 100%;
     display: block;
+    width: 100%;
     padding: 5px;
     margin-bottom: 20px;
     border: 1px solid rgba(0, 0, 0, 0.486);
@@ -78,9 +78,23 @@
     font-weight: 700;
   }
 
+  #resultado {
+    margin-top: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.473);
+    border-radius: 5px;
+  }
+
   .paragrafo-resultado {
-    background-color: rgba(125, 211, 68, 0.603);
+    font-size: 0.9em;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    
+   
   }
   .bad {
-    background-color: rgba(221, 86, 86, 0.445);
+    background-color: red;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
   }
